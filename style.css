@@ -209,7 +209,7 @@
         justify-content:center;
         align-items: flex-end;
         height: 6vh;
-        margin-bottom: 0px;
+        margin-bottom: 6px;
     }
 }
 .header-list-opitions{
@@ -227,7 +227,7 @@
 @media(max-width:375px){
     .opitions{
         cursor: pointer;
-        font-size: 14px;  
+        font-size: 16px;  
         width:unset; 
     }
 }
@@ -237,6 +237,12 @@
     text-decoration:underline red 2px;
     font-size: 18.5px;
     width: 45px;
+}
+@media(max-width:375px){
+    .opitions:hover{
+        font-size: 14px;  
+        width:unset; 
+    }
 }
 .main-background{
     background-color: #B4F8F7;
@@ -256,7 +262,8 @@
 }
 @media(max-width:375px){
     .main-gallery-img{
-        width: 160px;  
+        width: 160px; 
+        margin: 12px 0; 
     }
 }
 .main-box-bt{
@@ -369,6 +376,11 @@
 .footer-bt-socialmidia{
     cursor: pointer;
 }
+@media(max-width:375px){
+    .footer-bt-socialmidia{
+        height: 25px;
+    }
+}
 .footer-box-aviso{
     text-transform: capitalize;
     text-align: end;
@@ -387,6 +399,6 @@
         width: 375px;
         margin: 0;
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
     }
 }
