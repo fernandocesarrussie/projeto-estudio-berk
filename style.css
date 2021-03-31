@@ -305,6 +305,14 @@
 }
 @media(max-width:375px){
     .opitions:hover{
+        text-decoration:underline red 2px;
+        font-size: 14px;  
+        width:unset; 
+    }
+}
+@media(max-width:360px){
+    .opitions:hover{
+        text-decoration:underline red 2px;
         font-size: 14px;  
         width:unset; 
     }
